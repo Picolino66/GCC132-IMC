@@ -37,7 +37,7 @@ export class HomePage {
       this.message = "Obesidade Grave";
     }
     const toast = await this.toastCtrl.create({
-      message: `IMC = ${this.imc.toFixed(2)}`,
+      message: `IMC = ${this.imc.toFixed(2)} | Stauts = ${this.message}`,
       duration: 3000,
       color: 'secondary'
     })
